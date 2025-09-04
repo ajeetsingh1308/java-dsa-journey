@@ -39,6 +39,9 @@ It contains code, notes, and practice problems — starting from the basics and 
 
 ---
 
+# 📂 Project Structure – Java DSA Journey
+
+```plaintext
 java-dsa-journey/
 │── README.md
 │── JavaFundamentals/
