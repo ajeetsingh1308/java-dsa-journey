@@ -41,30 +41,30 @@ It contains code, notes, and practice problems — starting from the basics and 
 
 java-dsa-journey/
 │── README.md
-JavaFundamentals/
-├── basics/                  # Core beginner topics
-│   ├── variables/           # Variable, literals, identifiers
-│   ├── datatypes/           # Primitive & non-primitive datatypes
-│   ├── operators/           # Arithmetic, relational, logical, unary, binary
-│   ├── control-flow/        # if-else, switch, loops
-│   ├── patterns/            # Simple pattern printing
+│── JavaFundamentals/
+│   ├── basics/                  # Core beginner topics
+│   │   ├── variables/           # Variable, literals, identifiers
+│   │   ├── datatypes/           # Primitive & non-primitive datatypes
+│   │   ├── operators/           # Arithmetic, relational, logical, unary, binary
+│   │   ├── control-flow/        # if-else, switch, loops
+│   │   └── patterns/            # Simple pattern printing
+│   │
+│   ├── functions/               # Methods & function problems
+│   │   ├── simple-functions/    # Sum, product, avg etc.
+│   │   └── problems/            # Function-based problems
+│   │
+│   ├── problems/                # General practice problems
+│   │   ├── basics/              # Basic problem-solving (sum, area, etc.)
+│   │   └── applied/             # Slightly bigger problems
+│   │
+│   └── oops/                    # Object-Oriented Programming (later)
+│       ├── classes-objects/
+│       ├── inheritance/
+│       ├── polymorphism/
+│       ├── abstraction/
+│       └── encapsulation/
 │
-├── functions/               # Methods & function problems
-│   ├── simple-functions/    # Sum, product, avg etc.
-│   └── problems/            # Function-based problems
-│
-├── problems/                # General practice problems
-│   ├── basics/              # Basic problem-solving (sum, area, etc.)
-│   └── applied/             # Slightly bigger problems
-│
-└── oops/                    # Object-Oriented Programming (later)
-|    ├── classes-objects/
-|    ├── inheritance/
-|    ├── polymorphism/
-|    ├── abstraction/
-|    └── encapsulation/
-│
-│── dsa/                   # Core Data Structures & Algorithms
+│── dsa/                         # Core Data Structures & Algorithms
 │   ├── arrays/
 │   ├── strings/
 │   ├── linkedlist/
@@ -76,7 +76,7 @@ JavaFundamentals/
 │   ├── graphs/
 │   └── dynamic-programming/
 │
-└── .gitignore             # Ignore IDE, build files
+└── .gitignore                   # Ignore IDE, build files
 
 ---
 
