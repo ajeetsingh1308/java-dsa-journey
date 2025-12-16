@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class ArrayUpdateDemo {
+
+    // Method that updates array elements and returns the array
+    public static int[] updateArray(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = arr[i] + 10;   // update logic
+        }
+        return arr;   // returning updated array
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Input
+        System.out.print("Enter number of elements: ");
+        int n = sc.nextInt();
+
+        int marks[] = new int[n];
+
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) {
+          marks[i] = sc.nextInt();
+        }
+
+        // Passing array as argument
+        marks = updateArray(marks);
+
+        // Output
+        System.out.println("Updated array:");
+        for (int i = 0; i < marks.length; i++) {
+            System.out.print(marks[i] + " ");
+        }
+
+        sc.close();
+    }
+}
